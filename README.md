@@ -11,3 +11,5 @@ Pressing 3 will "swap" the the classes, giving the called elephant class the inc
 
 This can't be done by simply pointing to the other class, so we need a "holder" variable to keep track of the object. 
 Otherwise the object will be lost with no references being used.
+
+![Screenshot 2023-09-29 at 1 29 00 PM](https://github.com/dujules23/TypesAndReferencesPracitce/assets/71855759/42be8924-bf76-4db2-9055-f94395465446)
