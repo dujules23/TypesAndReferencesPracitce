@@ -21,3 +21,22 @@ Example 2:
 If we add an additional else if that points lloyd to lucinda (in this example we'll make this case 4), this will "break" the program. The swap functionality will no long work as well.
 
 ![Screenshot 2023-10-19 at 5 04 04 PM](https://github.com/dujules23/TypesAndReferencesPracitce/assets/71855759/7fff989d-86ec-48bd-9c28-6a1c9b9863c6)
+
+
+Example 3:
+
+This example is showcases how objects use references to talk to each other.
+
+I've made two methods; HearMessage and SpeakTo.
+
+![Screenshot 2023-10-19 at 6 09 24 PM](https://github.com/dujules23/TypesAndReferencesPracitce/assets/71855759/99e1adc6-abf5-4b68-a322-0eb5afbef681)
+
+A new else if is created that calls the SpeakTo method.
+
+![Screenshot 2023-10-19 at 6 09 34 PM](https://github.com/dujules23/TypesAndReferencesPracitce/assets/71855759/de933161-754d-4211-a949-c7deb3111521)
+
+The result is below, which shows that by using the "this" keyword, the object can get a reference to itself.
+
+![Screenshot 2023-10-19 at 6 09 49 PM](https://github.com/dujules23/TypesAndReferencesPracitce/assets/71855759/fc7f8fb5-989a-4ab5-99e0-97522ec1f5ba)
+
+
