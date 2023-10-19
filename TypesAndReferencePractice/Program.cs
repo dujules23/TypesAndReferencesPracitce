@@ -18,7 +18,7 @@ namespace TypesAndReferencePractice
                 Console.WriteLine("You pressed " + input);
                 if (input == '1')
                 {
-                    Console.WriteLine("Calling llyod.WhoAmI()");
+                    Console.WriteLine("Calling lloyd.WhoAmI()");
                     lloyd.WhoAmI();
                 }
                 else if (input == '2')
@@ -33,7 +33,13 @@ namespace TypesAndReferencePractice
                     lloyd = lucinda;
                     lucinda = holder;
                     Console.WriteLine("References have been swapped.");
+                }else if (input == '4')
+                {
+                    lloyd = lucinda;
+                    lloyd.EarSize = 4321;
+                    lloyd.WhoAmI();
                 }
+
                 else return;
                 Console.WriteLine();
 
